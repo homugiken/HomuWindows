@@ -1,0 +1,6 @@
+{
+    "show_bracket_popup_always": true,
+    "popup_char_context": 40,
+    "popup_line_context": 2,
+    "ignore_threshold": true,
+}
