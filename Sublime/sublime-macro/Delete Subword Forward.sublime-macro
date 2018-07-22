@@ -1,0 +1,16 @@
+// { "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Delete Subword Forward.sublime-macro"} },
+[
+    {
+        "command": "move",
+        "args":
+        {
+            "by": "subwords",
+            "extend": true,
+            "forward": true
+        }
+    },
+    {
+        "command": "left_delete",
+        "args": null
+    }
+]

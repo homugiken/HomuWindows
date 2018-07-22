@@ -1,0 +1,16 @@
+// { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Delete Subword Backward.sublime-macro"} },
+[
+    {
+        "command": "move",
+        "args":
+        {
+            "by": "subwords",
+            "extend": true,
+            "forward": false
+        }
+    },
+    {
+        "command": "left_delete",
+        "args": null
+    }
+]

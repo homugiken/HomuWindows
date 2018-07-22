@@ -1,0 +1,154 @@
+[
+    { "keys": ["ctrl+shift+n"], "command": "null" },
+    { "keys": ["ctrl+shift+w"], "command": "null" },
+    { "keys": ["ctrl+o"], "command": "null" },
+    { "keys": ["ctrl+shift+t"], "command": "null" },
+    { "keys": ["alt+o"], "command": "null" },
+    { "keys": ["ctrl+n"], "command": "null" },
+    { "keys": ["ctrl+s"], "command": "save" },
+    { "keys": ["alt+s"], "command": "save" },
+    { "keys": ["ctrl+shift+s"], "command": "null" },
+    { "keys": ["ctrl+f4"], "command": "null" },
+    { "keys": ["alt+shift+t"], "command": "close_file" },
+    { "keys": ["ctrl+w"], "command": "null" },
+
+    { "keys": ["ctrl+k", "ctrl+b"], "command": "null" },
+    { "keys": ["f12"], "command": "toggle_side_bar" },
+    { "keys": ["f11"], "command": "null" },
+    { "keys": ["shift+f11"], "command": "null" },
+
+    { "keys": ["backspace"], "command": "left_delete" },
+    { "keys": ["shift+backspace"], "command": "null" },
+    { "keys": ["ctrl+shift+backspace"], "command": "null" },
+    { "keys": ["alt+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Delete Subword Backward.sublime-macro"} },
+    { "keys": ["alt+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Delete Subword Forward.sublime-macro"} },
+
+    { "keys": ["delete"], "command": "right_delete" },
+    { "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
+
+    { "keys": ["ctrl+z"], "command": "soft_undo" },
+    { "keys": ["ctrl+shift+z"], "command": "soft_redo" },
+    { "keys": ["ctrl+y"], "command": "null" },
+    { "keys": ["ctrl+u"], "command": "null" },
+    { "keys": ["ctrl+shift+u"], "command": "`null" },
+
+    { "keys": ["shift+delete"], "command": "`null" },
+    { "keys": ["ctrl+insert"], "command": "null" },
+    { "keys": ["shift+insert"], "command": "null" },
+    { "keys": ["ctrl+x"], "command": "cut" },
+    { "keys": ["ctrl+c"], "command": "copy" },
+    { "keys": ["ctrl+v"], "command": "paste" },
+    { "keys": ["ctrl+shift+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+k", "ctrl+v"], "command": "null" },
+    { "keys": ["alt+v"], "command": "paste_from_history" },
+
+    { "keys": ["ctrl+alt+up"], "command": "null" },
+    { "keys": ["ctrl+alt+down"], "command": "null" },
+
+    { "keys": ["ctrl+up"], "command": "prev_view" },
+    { "keys": ["ctrl+down"], "command": "next_view" },
+    { "keys": ["ctrl+pagedown"], "command": "null" },
+    { "keys": ["ctrl+pageup"], "command": "null" },
+
+    { "keys": ["ctrl+]"], "command": "null" },
+    { "keys": ["ctrl+["], "command": "null" },
+    { "keys": ["alt+]"], "command": "indent" },
+    { "keys": ["alt+["], "command": "unindent" },
+
+    { "keys": ["insert"], "command": "null" },
+
+    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["alt+l"], "command": "expand_selection", "args": {"to": "line"} },
+    { "keys": ["ctrl+k", "ctrl+d"], "command": "null" },
+
+    { "keys": ["ctrl+shift+m"], "command": "null" },
+    { "keys": ["ctrl+m"], "command": "null" },
+    { "keys": ["ctrl+shift+b"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["ctrl+b"], "command": "move_to", "args": {"to": "brackets"} },
+
+    { "keys": ["ctrl+q"], "command": "null" },
+    { "keys": ["ctrl+shift+q"], "command": "null" },
+
+    { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+
+    { "keys": ["shift+f12"], "command": "null" },
+
+    { "keys": ["alt+keypad_minus"], "command": "null" },
+    { "keys": ["alt+shift+keypad_minus"], "command": "null" },
+    { "keys": ["alt+-"], "command": "jump_back" },
+    { "keys": ["alt+shift+-"], "command": "null" },
+    { "keys": ["alt+="], "command": "jump_forward" },
+
+    { "keys": ["shift+f3"], "command": "null" },
+    { "keys": ["f1"], "command": "find_prev" },
+    { "keys": ["f2"], "command": "find_next" },
+    { "keys": ["ctrl+shift+f3"], "command": "null" },
+    { "keys": ["ctrl+d"], "command": "find_under_prev" },
+    { "keys": ["alt+d"], "command": "find_under_expand_skip" },
+    { "keys": ["alt+shift+d"], "command": "goto_definition" },
+    { "keys": ["alt+f3"], "command": "null" },
+
+    { "keys": ["f4"], "command": "next_result" },
+    { "keys": ["f3"], "command": "prev_result" },
+
+    { "keys": ["f6"], "command": "null" },
+    { "keys": ["ctrl+f6"], "command": "null" },
+    { "keys": ["ctrl+shift+f6"], "command": "null" },
+
+    { "keys": ["ctrl+/"], "command": "null" },
+    { "keys": ["ctrl+shift+/"], "command": "null" },
+    { "keys": ["alt+/"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["alt+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+
+    { "keys": ["f7"], "command": "null" },
+    { "keys": ["ctrl+b"], "command": "null" },
+    { "keys": ["ctrl+shift+b"], "command": "null" },
+    { "keys": ["ctrl+break"], "command": "null" },
+
+    { "keys": ["f8"], "command": "alignment" },
+    { "keys": ["f9"], "command": "sort_lines", "args": {"case_sensitive": true} },
+    { "keys": ["ctrl+f9"], "command": "sort_lines", "args": {"case_sensitive": false} },
+
+    { "keys": ["ctrl+1"], "command": "null" },
+    { "keys": ["ctrl+2"], "command": "null" },
+    { "keys": ["ctrl+3"], "command": "null" },
+    { "keys": ["ctrl+4"], "command": "null" },
+    { "keys": ["ctrl+5"], "command": "null" },
+    { "keys": ["ctrl+6"], "command": "null" },
+    { "keys": ["ctrl+7"], "command": "null" },
+    { "keys": ["ctrl+8"], "command": "null" },
+    { "keys": ["ctrl+9"], "command": "null" },
+    { "keys": ["ctrl+shift+1"], "command": "null" },
+    { "keys": ["ctrl+shift+2"], "command": "null" },
+    { "keys": ["ctrl+shift+3"], "command": "null" },
+    { "keys": ["ctrl+shift+4"], "command": "null" },
+    { "keys": ["ctrl+shift+5"], "command": "null" },
+    { "keys": ["ctrl+shift+6"], "command": "null" },
+    { "keys": ["ctrl+shift+7"], "command": "null" },
+    { "keys": ["ctrl+shift+8"], "command": "null" },
+    { "keys": ["ctrl+shift+9"], "command": "null" },
+    { "keys": ["ctrl+0"], "command": "null" },
+
+    { "keys": ["ctrl+shift+k"], "command": "null" },
+    { "keys": ["alt+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["alt+q"], "command": "null" },
+
+    { "keys": ["ctrl++"], "command": "null" },
+    { "keys": ["ctrl+keypad_minus"], "command": "null" },
+
+    { "keys": ["ctrl+equals"], "command": "null" },
+    { "keys": ["ctrl+shift+equals"], "command": "null" },
+    { "keys": ["ctrl+shift+keypad_plus"], "command": "null" },
+
+    { "keys": ["ctrl+shift+["], "command": "null" },
+    { "keys": ["ctrl+shift+]"], "command": "null" },
+    { "keys": ["ctrl+["], "command": "fold" },
+    { "keys": ["ctrl+]"], "command": "unfold" },
+    { "keys": ["ctrl+shift+]"], "command": "unfold_all" },
+
+/* SublimeCodeIntel*/
+    { "keys": ["shift+ctrl+space"], "command": "code_intel_auto_complete" },
+    { "keys": ["super+alt+ctrl+up"], "command": "goto_python_definition"},
+    { "keys": ["super+alt+ctrl+left"], "command": "back_to_python_definition"}
+]

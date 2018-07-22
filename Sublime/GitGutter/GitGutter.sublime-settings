@@ -1,0 +1,7 @@
+// GitGutter Settings - User
+{
+    "ignore_whitespace": "eol",
+    "debounce_delay": 200,
+    "show_in_minimap": 1,
+    "enable_hover_diff_popup": false,
+}
